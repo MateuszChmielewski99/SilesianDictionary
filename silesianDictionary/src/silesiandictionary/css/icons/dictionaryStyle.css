@@ -1,0 +1,40 @@
+.root
+{
+	-fx-background-color:#778899;
+	-fx-border-color:#000000;
+}
+
+.list-view
+{
+	-fx-background-color:#8494a3;
+	-fx-border-color:#92a8d1;
+}
+
+.list-cell
+{
+	-fx-background-color:#8494a3;
+	-fx-font-size:15px;
+}
+
+.button
+{
+ -fx-background-color:#1E90FF;
+ -fx-border-color:#000000;
+ -fx-font-size:12px;
+}
+
+.text-field
+{
+	-fx-background-color:#8494a3;
+        -fx-border-color:#000000;
+}
+
+.scroll-bar
+{
+	-fx-background-color:#8494a3;
+}
+
+.scroll-bar:vertical .thumb
+{
+	 -fx-background-color:#1E90FF;
+}

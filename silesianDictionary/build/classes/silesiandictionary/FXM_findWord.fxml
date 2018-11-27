@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="330.0" prefWidth="410.0" stylesheets="@css/icons/dictionaryStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="silesiandictionary.FXM_findWordController">
+   <children>
+      <HBox alignment="CENTER" layoutX="55.0" layoutY="76.0" prefHeight="72.0" prefWidth="256.0">
+         <children>
+            <TextField fx:id="findField" onKeyReleased="#showList" onKeyTyped="#showList" promptText="Słowo..." />
+            <Button fx:id="findButton" mnemonicParsing="false" onAction="#showList" text="Szukaj" />
+         </children>
+      </HBox>
+      <ListView fx:id="foundList" layoutY="165.0" prefHeight="137.0" prefWidth="363.0" style="-fx-background-color: #8494a3;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label contentDisplay="TOP" layoutX="95.0" layoutY="52.0" style="-fx-font-size: 19;" text="Jakiego słowa szukasz?" textAlignment="CENTER" />
+      <RadioButton fx:id="changeLanguageButton" layoutY="6.0" mnemonicParsing="false" scaleX="0.9" scaleY="0.9" scaleZ="0.9" text="Zminień na śląsko - polski" />
+   </children>
+</AnchorPane>
